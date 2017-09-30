@@ -1,0 +1,10 @@
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\Common.deps.json
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\Common.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\Common.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\obj\Debug\netcoreapp1.1\Common.csprojResolveAssemblyReference.cache
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\obj\Debug\netcoreapp1.1\Common.AssemblyInfo.cs
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\obj\Debug\netcoreapp1.1\Common.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\obj\Debug\netcoreapp1.1\Common.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\IO.Swagger.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\IO.Swagger.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\Common\bin\Debug\netcoreapp1.1\IO.Swagger.xml

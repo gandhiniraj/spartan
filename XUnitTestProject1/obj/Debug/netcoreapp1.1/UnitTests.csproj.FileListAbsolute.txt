@@ -1,0 +1,17 @@
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\UnitTests.deps.json
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\UnitTests.runtimeconfig.json
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\UnitTests.runtimeconfig.dev.json
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\UnitTests.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\UnitTests.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\Common.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\Common.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\obj\Debug\netcoreapp1.1\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\obj\Debug\netcoreapp1.1\UnitTests.AssemblyInfo.cs
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\obj\Debug\netcoreapp1.1\UnitTests.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\obj\Debug\netcoreapp1.1\UnitTests.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\IO.Swagger.dll
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\IO.Swagger.pdb
+C:\Users\nirajg\Desktop\prj\ARMRPforRP\spartan\XUnitTestProject1\bin\Debug\netcoreapp1.1\IO.Swagger.xml
