@@ -1,0 +1,82 @@
+swagger: "2.0"
+info:
+  description: "This is a sample server resourceProviderstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters."
+  version: "1.0.0"
+  title: "Swagger resourceProviderstore"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "apiteam@swagger.io"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "resourceProviderstore.swagger.io"
+basePath: "/v2"
+tags:
+- name: "resourceprovider"
+  description: "Everything about your resourceProviders"
+  externalDocs:
+    description: "Find out more"
+    url: "http://swagger.io"
+schemes:
+- "http"
+paths:
+  /resourceProvider:
+    put:
+      tags:
+      - "resourceProvider"
+      summary: "Update an existing rp"
+      description: ""
+      operationId: "updateRP"
+      consumes:
+      - "application/json"
+      - "application/xml"
+      produces:
+      - "application/xml"
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "resourceProvider object that needs to be added to the store"
+        required: true
+        schema:
+          $ref: "#/definitions/ResourceProvider"
+      responses:
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "resourceProvider not found"
+        405:
+          description: "Validation exception"
+      security:
+      - resourceProviderstore_auth:
+        - "write:resourceProviders"
+        - "read:resourceProviders"
+securityDefinitions:
+  resourceProviderstore_auth:
+    type: "oauth2"
+    authorizationUrl: "http://resourceProviderstore.swagger.io/oauth/dialog"
+    flow: "implicit"
+    scopes:
+      write:resourceProviders: "modify resourceProviders in your account"
+      read:resourceProviders: "read your resourceProviders"
+  api_key:
+    type: "apiKey"
+    name: "api_key"
+    in: "header"
+definitions:
+  ResourceProvider:
+    type: "object"
+    required:
+    - "name"
+    properties:
+      name:
+        type: "string"
+        example: "doggie"
+      swaggerSpecURI:
+        type: "string"
+        example: "www.bing.com"
+    xml:
+      name: "resourceProvider"
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
