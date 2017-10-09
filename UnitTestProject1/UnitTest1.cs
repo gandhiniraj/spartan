@@ -8,11 +8,18 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void P0Test()
         {
 			PutCall putCall = new PutCall();
 			string exampleJson = "{\"name\":\"Intel\",\"swaggerSpecURI\":\"foo\"}";
 			 Assert.AreEqual(exampleJson, putCall.PutHelper());
 		}
-    }
+
+		[TestMethod]
+		public void AzureCredTest()
+		{
+			PutCall putCall = new PutCall();
+			Assert.IsNotNull(putCall.InitilizeAzureCred().Result);
+		}
+	}
 }
