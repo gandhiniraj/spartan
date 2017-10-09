@@ -44,7 +44,7 @@ namespace IO.Swagger.Controllers
         [SwaggerOperation("UpdateRP")]
         public virtual object UpdateRP([FromBody]ResourceProvider body)
         {
-			string exampleJson = "{  \"name\": \"Intel\",  \"swaggerSpecURI\": \"foo\"}";
+			string exampleJson = "{\"name\":\"Intel\",\"swaggerSpecURI\":\"foo\"}";
 
 			var example = exampleJson != null ? JsonConvert.DeserializeObject<ResourceProvider>(exampleJson) : default(ResourceProvider);
 			

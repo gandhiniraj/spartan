@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "99bafe65c3fba4b6458f2b3c924a1c0f856cbfd6"
+    "signature": "872a57973b59b185fd2b8a8bf29fdaf81f21ca31"
   },
   "compilationOptions": {},
   "targets": {
@@ -417,6 +417,15 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
+      "microsoft.azure.management.resourcemanager/1.6.0-preview": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.8",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.5"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Management.ResourceManager.dll": {}
+        }
+      },
       "microsoft.dotnet.internalabstractions/1.0.0": {
         "runtime": {
           "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
@@ -662,6 +671,30 @@
           "lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
+      "microsoft.identitymodel.clients.activedirectory/3.13.9": {
+        "dependencies": {
+          "System.Runtime.Serialization.Json": "4.0.2",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "microsoft.identitymodel.logging/1.1.2": {
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "microsoft.identitymodel.tokens/5.1.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.2",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
       "microsoft.net.http.headers/1.0.2": {
         "dependencies": {
           "System.Diagnostics.Contracts": "4.0.1"
@@ -673,6 +706,33 @@
       "microsoft.net.test.sdk/15.0.0": {
         "dependencies": {
           "Microsoft.TestPlatform.TestHost": "15.0.0"
+        }
+      },
+      "microsoft.rest.clientruntime/2.3.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "microsoft.rest.clientruntime.azure/3.3.5": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.8"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        }
+      },
+      "microsoft.rest.clientruntime.azure.authentication/2.3.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.9",
+          "Microsoft.IdentityModel.Tokens": "5.1.2",
+          "Microsoft.Rest.ClientRuntime": "2.3.8",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll": {}
         }
       },
       "microsoft.testplatform.objectmodel/15.0.0": {
@@ -1066,7 +1126,9 @@
       },
       "common/1.0.0": {
         "dependencies": {
-          "IO.Swagger": "1.0.0"
+          "IO.Swagger": "1.0.0",
+          "Microsoft.Azure.Management.ResourceManager": "1.6.0-preview",
+          "Microsoft.Rest.ClientRuntime.Azure.Authentication": "2.3.1"
         },
         "runtime": {
           "Common.dll": {}
@@ -1375,6 +1437,13 @@
       "path": "microsoft.aspnetcore.webutilities/1.0.2",
       "hashPath": "microsoft.aspnetcore.webutilities.1.0.2.nupkg.sha512"
     },
+    "microsoft.azure.management.resourcemanager/1.6.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sHo8XOn9l1oI7prXVZ76a+G5aU2VtjbM86mBuhAANM2buU1t91d6fsWJYXUfGq7RlvI7Gh5stprkhtuHauAEbA==",
+      "path": "microsoft.azure.management.resourcemanager/1.6.0-preview",
+      "hashPath": "microsoft.azure.management.resourcemanager.1.6.0-preview.nupkg.sha512"
+    },
     "microsoft.dotnet.internalabstractions/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1592,6 +1661,27 @@
       "path": "microsoft.extensions.webencoders/1.0.2",
       "hashPath": "microsoft.extensions.webencoders.1.0.2.nupkg.sha512"
     },
+    "microsoft.identitymodel.clients.activedirectory/3.13.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tITcWuFUdwskaJVb4fhgV4UjJiAVBli5D5Bnrg3iAJPiRsmFEgv2O5l07WnIj97gRkX8A4d64kgOg+IiOcJVmw==",
+      "path": "microsoft.identitymodel.clients.activedirectory/3.13.9",
+      "hashPath": "microsoft.identitymodel.clients.activedirectory.3.13.9.nupkg.sha512"
+    },
+    "microsoft.identitymodel.logging/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QPMFfRVnRkCzGpEQz/YEPsbwUjAp5R1W2dpaXHlJJNA7fp9gV4m4TDKvvXhQnqdEL0a0luNrYFZrbz7NRI1rXQ==",
+      "path": "microsoft.identitymodel.logging/1.1.2",
+      "hashPath": "microsoft.identitymodel.logging.1.1.2.nupkg.sha512"
+    },
+    "microsoft.identitymodel.tokens/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m7UP4iY/dWfVwDNNSVGvZV6r4PwflaK++sYQsTTGAMILYb5IJ4Z4rKJRCA0uKjo6jTcdWlQxyPsxoEVwjqPKqQ==",
+      "path": "microsoft.identitymodel.tokens/5.1.2",
+      "hashPath": "microsoft.identitymodel.tokens.5.1.2.nupkg.sha512"
+    },
     "microsoft.net.http.headers/1.0.2": {
       "type": "package",
       "serviceable": true,
@@ -1605,6 +1695,27 @@
       "sha512": "sha512-fiOrr+qc9NUc7T8am9Kz9TlXVDa+tQcVP3WFXyeZQA1vrbgsA578wcmGhSbc7KxMcWCu2GG4i0DKK1c5pLRdpQ==",
       "path": "microsoft.net.test.sdk/15.0.0",
       "hashPath": "microsoft.net.test.sdk.15.0.0.nupkg.sha512"
+    },
+    "microsoft.rest.clientruntime/2.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hj96LBoCwKY2VQKfSCVGGPV1sSumVjuYnrlpBwL4JSTnSK4b6ZxjLtXj8LgmKav8xJ2gps+UN7eI3hHVFKvBFw==",
+      "path": "microsoft.rest.clientruntime/2.3.8",
+      "hashPath": "microsoft.rest.clientruntime.2.3.8.nupkg.sha512"
+    },
+    "microsoft.rest.clientruntime.azure/3.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49TdXfX0BQDiWefcogJfTCsGTzsWRz3BPqbUNhbmQE/D9vlf/OdP0hwxMuPavmGEx9SfI9r67nMy9H0VB6ytQA==",
+      "path": "microsoft.rest.clientruntime.azure/3.3.5",
+      "hashPath": "microsoft.rest.clientruntime.azure.3.3.5.nupkg.sha512"
+    },
+    "microsoft.rest.clientruntime.azure.authentication/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6pqrXiVJvIhNnZigyczIBaVNBPff08qb6QdTNQvtUsS/krHf/ks4nE4MhFadTvpJw1W1WLf7vz64fxyJVPWmZQ==",
+      "path": "microsoft.rest.clientruntime.azure.authentication/2.3.1",
+      "hashPath": "microsoft.rest.clientruntime.azure.authentication.2.3.1.nupkg.sha512"
     },
     "microsoft.testplatform.objectmodel/15.0.0": {
       "type": "package",
