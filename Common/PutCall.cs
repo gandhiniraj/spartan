@@ -8,7 +8,7 @@ namespace Common
 {
     public class PutCall
     {
-		public string Test()
+		public string PutHelper()
 		{
 			string exampleJson = @"{  name: 'Intel',  swaggerSpecURI: 'foo'}";
 

@@ -11,7 +11,8 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
 			PutCall putCall = new PutCall();
-			Assert.AreEqual("hi", putCall.Test());
+			string exampleJson = "{\"name\":\"Intel\",\"swaggerSpecURI\":\"foo\"}";
+			 Assert.AreEqual(exampleJson, putCall.PutHelper());
 		}
     }
 }
